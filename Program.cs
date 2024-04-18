@@ -33,6 +33,7 @@ class Calculator
             case '*':
                 result = num1 * num2;
                 break;
+
             case '/':
                 if (num2 != 0)
                 {
@@ -44,6 +45,7 @@ class Calculator
                     Environment.Exit(0);
                 }
                 break;
+
             default:
                 Console.WriteLine("Некорректная операция!");
                 Environment.Exit(0);
